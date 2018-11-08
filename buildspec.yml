@@ -8,7 +8,7 @@ phases:
                                    --output-template-file outputSamTemplate.yaml
 pre_build:
     commands:
-	- git checkout master 
+    - git checkout master 
 artifacts:
   type: zip
   files:
